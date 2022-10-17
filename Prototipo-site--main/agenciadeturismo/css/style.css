@@ -1,0 +1,105 @@
+ *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    
+}
+
+.corpo {
+    background-image: linear-gradient(to right,rgb(104, 104, 230),rgb(173, 207, 230), rgb(173, 207, 230));
+    display:grid;
+    grid-template-areas: h m f;
+
+}
+
+
+.header {
+    grid-area: h;
+     height: 15%;
+    
+}
+
+.main {
+
+    height: 120%;
+    grid-area: m ;
+    text-align: center;
+
+}
+
+.footer {
+    width:100%;
+    height: 3%;
+    background-color:#faf600;
+    text-align: center;
+    position:relative;
+    bottom:0;
+    left:0;
+    grid-area: f;
+    background-image: linear-gradient(to rigth, white, blue );
+}
+
+.titulo{
+    font-size: 20px;
+    font-style:normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border:solid 3px;
+    border-radius: 100%;
+    width:150px;
+    text-align: center;
+    background-color: rgb(238, 255, 0);
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.titulo2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: oblique;
+    font-weight: bold;
+
+}
+
+
+
+.figure1 {
+  
+    border-radius: 5%;
+    padding:5%;
+   margin-left: 15%;
+    background-image: linear-gradient(to right,rgb(248, 250, 136),rgb(157, 200, 228), rgb(173, 207, 230),rgb(248, 250, 136));
+    font-style: italic;
+    font-size: medium;
+    width: 70%;
+   
+}
+
+
+.figure2 {
+    border:1px solid rgb(250, 250, 250);
+    margin-left: 30px;
+    margin-right: 20px;
+    background-image: linear-gradient(to right,rgb(248, 250, 136),rgb(173, 207, 230), rgb(173, 207, 230));
+
+}
+
+.destino {
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    
+}
+
+.faleconosco {
+    margin-left: 30px;
+    
+}
+
+.cadastro {
+    margin-left:30px;
+}
+
