@@ -1,7 +1,8 @@
 CREATE DATABASE  `agencia` ;
 USE `agencia`;
 CREATE TABLE `cliente` (
-  `id_cliente` int NOT NULL,
+  `id_cliente` int NOT NULL auto_increment,
+    nome_cliente varchar(30) NOT NULL,,
   `nome_cliente` varchar(30) NOT NULL,
   `cpf_cliente` int NOT NULL,
   `email_cliente` varchar(30) NOT NULL,
@@ -10,7 +11,8 @@ CREATE TABLE `cliente` (
 ) ;
 
 CREATE TABLE `compra` (
-  `id_compra` int NOT NULL,
+  `id_compra` int NOT NULL auto_increment,
+    nome_cliente varchar(30) NOT NULL,,
   `id_cliente` int NOT NULL,
   `id_pacote` int NOT NULL,
   `data_compra` date NOT NULL,
@@ -24,6 +26,7 @@ CREATE TABLE `compra` (
 CREATE TABLE `pacote` (
   `nome_pacote` varchar(30) NOT NULL,
   `valor_pacote` decimal(10,0) NOT NULL,
-  `id_pacote` int NOT NULL,
+  `id_pacote` int NOT NULL auto_increment,
+    nome_cliente varchar(30) NOT NULL,
   PRIMARY KEY (`id_pacote`)
 ) ;
